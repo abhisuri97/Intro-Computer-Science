@@ -136,25 +136,14 @@ public class Picture extends SimplePicture {
         Pixel[][] pixels = this.getPixels2D();
         for (Pixel[] rowArray : pixels) {
             for (Pixel pixelObj : rowArray) {
-                if(pixelObj.getRed() >= 25)
+                if(pixelObj.getRed() >= 25 || pixelObj.getBlue() <150)
                 {
                     pixelObj.setBlue(0);
                     pixelObj.setGreen(0);
                     pixelObj.setRed(0);
                     
                 }
-                if (pixelObj.getBlue() >= 150)
-                    {
-                        pixelObj.setBlue(255);
-                        pixelObj.setRed(255);
-                        pixelObj.setGreen(255);
-                    }
-                    if (pixelObj.getBlue() < 255)
-                    {
-                        pixelObj.setBlue(100);
-                        pixelObj.setRed(0);
-                        pixelObj.setGreen(0);
-                    }
+               
                 
             }
         }
