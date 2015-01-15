@@ -1,0 +1,42 @@
+Give examples of the following from the Crab game:
+Class=crab
+Attribute=numEaten=state of object
+
+Method:
+act() {
+	methodName()
+	turn()
+	move()
+	canSee()
+}
+
+crab class inherits from animal class (inheritance)
+overriding. if you have a method in a class (which already exists in the inherited class) the child method will over ride the parent method.
+
+objects dont control the other objects
+
+add(1,2)
+
+add(1a,1b,2a,2b)
+
+encapsulation=1 object is in control of its own domain
+
+Primitive Data and Objects:
+	- Simple (primitive) data types
+		int: 4 bytes signed -2147483648 to 2147483648
+		boolean: compiler dependant
+		double: (-1)^sign(1.abc...z)2 x 2^e-1023
+			where there are 52 bits for the fraction (mantissa), 11 bits for the exponent, and 1 bit for the sign -1.7E+308 to 1.7E+308 with almost 16 significant digits
+		char: 2 bytes, 65,535 unicode characters
+	- Overflow vs Underflow
+	   1   1   1
+		1 	1 	1 	1
+		+ 			1
+		______________
+	1	|0	0	0	0|
+	
+	- Variable vs Constant(final)
+	- What is literal and string literal?
+		How are chars and Strings concatenated?
+		What is the difference between print and println?
+	- Difference between Primitive Data and Objects

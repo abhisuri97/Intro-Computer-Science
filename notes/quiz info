@@ -1,0 +1,38 @@
+Obj1 == Obj2 (are the objects are the same address? if they are they are called ALIASES)
+Ob1 = Obj2 (this is called an ASSIGNMENT. you make them equal. Left hand side gets its value set by the value of Object 2. They are now aliases)
+
+if (condition1 && condition2)
+when condition1 is false, the if statement doesn't pass
+
+
+parameter passing: method (primdata type, Sting, obj)
+for primative data types, you are passing in actual value.
+e.g. 
+int num = 2
+methodname(int num)
+num is 2
+
+Strings are immutable (local variable)
+
+Case:
+Android1
+	memory = 10
+if you put android1 into a method which increments memory by 1, it not only changes memory within the method but ALSO changes the memory variable for all instances of it.
+
+
+example interfaces
+
+Class
+{
+	private int score = 0;
+		public int updateScore(int num)
+		{
+			score += num;
+			return score;
+		}
+
+}
+
+Interface:
+public int interfaceMethod(ClassMine class1);
+

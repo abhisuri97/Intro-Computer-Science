@@ -1,0 +1,73 @@
+Day 3 
+
+Computer Architecture
+	Computer Core:
+		- Central Processing Unit (CPU)
+		- Main Memory
+	Peripherals
+		- Secondary Memory (Hard drive, flash drive, etc.)
+		- Monitors
+		- Printers
+		- Speakers
+	Control unit handles processing steps. ALU (arithmetic logic unit) does calculations and makes decisions.
+
+Central Processing Unit
+	- Main memory made of small connected memory location (addresses).
+	- Most CPUs have special purpose registers such as registers to hold the current instruction, to hold the address of the next instruction, etc.
+	- The CPU cycles through fetching instructions, decoding then executing instructions at the rate set by the system clock.
+
+	Java:		Assembly:						Machine Language:
+	c=a+b 		Go Get value at address a 		1001111...
+				Go Get value at address b
+				Add regester 1 + 2
+				Take results to address c
+
+	Compiler translates java to assembly
+
+	address 	content 	name 	type	value
+	0x000000	0x00 		int 	0x0000F ...
+
+Programming languages 
+	Problem Solving
+		1. Understand the problem
+		2. Break the problem into manageable pieces
+		3. Design a solution
+		4. Consider alternatives and refine the soltuions.
+		5. Implement the solution.
+		6. Test the solution and fix and problems***
+	Programming Language Levels
+		1. Machine Language
+		2. Assembly Langage
+		3. High-Level Languages (Java)***
+		4. Fourth-Generation Languages
+
+Java: High-Level Programming
+	- Object Oriented vs. Procedural Programming
+	- Objects have states and behaviors
+	- What is an editor?
+		- Software tool to create and edit your program.
+	- What is a compiler
+		- Converts source code to target code
+	- What is Java bytecode?
+		- Java compilers convert source code to bytecode instead of machine language as other high level languages.
+	- Java bytecode is not tied to any particular processor. It is architecture neutral!
+	- What is an interpreter?
+		- Converts the low level compiled program to machine code specific for your platform Operating System calls.
+
+Java: High-Level Programming
+	Components of a Java program:
+		- comments (// single line or /* */)
+		- Class definition (factory instructions)
+			- Instance variables (state)
+			- constructor
+			- method definitions (behaviors)
+		- Identifiers
+			- words that we make up
+			- words that another programmer makes up
+			- reserved words
+		- White space
+	Errors
+		- compile-time error: problem compiling; didn't follow syntax
+		- runtime error: crash while running (divide by 0)
+		- logical error: wrong output no other errors
+

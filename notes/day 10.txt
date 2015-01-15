@@ -1,0 +1,48 @@
+A method declaration defines the code that will be executed when the method is INVOKED
+
+Programs are stored in memory just like variables. A program counter stores the address of the bytecode instruction being executed. After each bytecode instruction is executed, the program counter is updated with the address for the next bytecode instruction. A Java stack (composted of stack frames for each method) is used to keep track of what ADDRESS to return to after a method is called and finishes. 
+
+Return values return data to the calling METHOD and must have a type.
+
+Method header example
+
+public static void main (String[] args)
+
+statements make up the method BODY and are defined in a block inside braces.
+
+Return statements may return data and return control to the CALLING METHOD
+
+Constructors are not methods and DO NOT have return statements
+
+The parameters in the header of a method are called FORMAL parameters
+
+	intcalc(int num1, int num2)
+
+The formal parameters are LOCAL variables
+
+The values passed from the calling method are called ACTUAL parameters
+
+	intcalcNum = object.calc(25, a x b);
+	intcalcNum = object.calc(object.getInt(), 4);
+
+The actual paramters INITIALIZE the formal parameters. Note that they must be in correct order
+
+You MAY use an expression or another method call to pass a parter value
+
+A PRECONDITION may be written to check that a condition is true before calling a method. For example, you should check that you are not trying to divide by zero as that will cause the program to crash.
+
+A POSTCONDITION may be written to check that a method operated correction
+
+ASSERTION is normally used during the testing period of code implementation. If the ASSERTION is false, the program will end with an error.
+
+ACCESSOR/GETTER methods retrieve private instance variables.
+
+MUTATOR/MODIFIER/SETTER methods change private instance variables
+
+Both accessor and mutator methods are SERVICE methods because they provide a service to the object's client.
+
+Method OVERLOADED allows using one name for methods performing similar operations on different data types. Constructors can be OVERLOADED to create different but similar objects.
+
+A method signature includes it NAME and PARAMETERS.
+
+Method DECOMPOSITION breaks up a procedure into pieces to make it more mangeable and easier to understand.

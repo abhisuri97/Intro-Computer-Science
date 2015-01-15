@@ -1,0 +1,59 @@
+AP Computer Science
+Ms. Muguira
+mmuguira@smhall.org
+
+Presentation Topic: Class orientation + What are digital computers
+
+Bio:
+GE Aviation- flight management systems
+ELECTRICAL ENGINEER BY TRAINING
+
+
+Class overview:
+-Actually read
+	-write down questions on a 3x3 sticky note
+	-highlight
+-Tutorial Period on Tuesdays and Fridays
+
+Grade Distribution
+Tests: 		40%
+Labs: 		30%
+Classwork:	10%
+Quizzes:	10%
+Homework:	10%
+
+Due Dates/Timings:
+Labs and homework are due by monday morning before the beginning of class. 
+
+Note: Quizzes typically on Fridays
+
+Download Bluejay- compiler
+
+
+Computer Hardware components:
+power supply
+microprocessor
+expansion slot
+expansion card
+chipset (help transfer info back and forth)
+disk drives (store information)
+cables that transfer data from ext. storage to motherboard
+motherboard
+-when working with electronics, make sure to ground yourself.
+
+Digital Computers:
+- analog signal
+- analog hardware is less flexible and less accurate b/c it is more likely to be affected by noise
+- A digital signal is achieved by setting a threshold to create two states. The info is more robust than that of analog signals
+- A sampling rate must be chosen for digital signals. How does one choose an appropriate rate?
+- How is the information stored in a digital system?
+
+E.g.
+(http://3.bp.blogspot.com/-rKxzZBuAcNs/Uvg1Del4Q9I/AAAAAAAAQ1g/QWGiIsjVfoI/s1600/analog+signal.gif)
+
+Transistors set a threshold for information (1 or 0)
+Sampling rate > 2 times the highest frequency. Greater sampling rate = more data. Useful in music. digital signals are extended over a delta time to make music sound continuous. 
+Digital imaging sampling. Low sampling rate leads to pixelation. 
+
+Binary Base system. 
+All letters are encoded into decimals. 

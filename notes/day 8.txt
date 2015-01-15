@@ -1,0 +1,57 @@
+Program Development
+	- Establish the software requirements
+	- Create a software design
+		Algorithm written in pseudocode (mixture of english and code)
+	- Implement the code
+	- Test the implementation
+		Include regression testing (fix the problem and retest)
+
+Program Control Flow
+	- What is flow of control?
+		The order in which the statements are executed
+	- Flow is controlled by conditional statements and loops
+	- Conditional statements (or selection statements)
+		If statements
+		If-else statements
+		If else-if statements
+	- Loops (or repetition statements)
+		while loops
+		for loops
+	- Nested Loops
+	- Infinite Loops
+
+Syntax
+	if(boolean expression/condition)
+	{ //not necessary when only have one statement
+		Statements;
+	} //but provides clarity
+	else if(boolean expression/condition)
+	{
+		Statements;
+	}
+	else
+	{
+		Statements;
+	}
+
+== equal to
+!= not equal to
+< less than
+<= less than equal to
+> greater than
+>= greater than equal to 
+! Logical NOT
+&& Logical AND
+|| Logical OR
+
+
+LOGIC TABLE
+
+a 	b 	a&&b 	a||b
+f 	f 	f 		f
+f 	t 	f 		t
+t 	f 	f 		t
+t 	t 	t 		t
+
+
+

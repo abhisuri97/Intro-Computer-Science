@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ testSetMatrix()
+comment0.text=\n\ method\ to\ test\ setMatrix\n
+comment1.params=
+comment1.target=void\ testFillPattern1()
+comment1.text=\n\ Method\ to\ test\ fillPattern1\n
+comment2.params=
+comment2.target=void\ testGetTotal()
+comment2.text=\n\ Method\ to\ test\ getTotal\n
+comment3.params=
+comment3.target=void\ testGetTotalNested()
+comment3.text=\n\ Method\ to\ test\ getTotalNested\n
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+comment4.text=\n\ Method\ to\ test\ getColTotal\n
+numComments=5

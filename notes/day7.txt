@@ -1,0 +1,20 @@
+Primitive Type
+
+Objects
+
+Classes and Packages
+	- String Class
+		int compareTo (String str)
+		boolean equals (strong str)
+		int indexOf (string str)
+		int length ()
+		String substring (int offset, int endIndex)
+		String substring (int offset) 
+
+import java.lang. *
+(all docs at http://docs.oracle.com/javase/6/docs/api)
+
+String S1,S2;
+
+dot operation (.)
+s1.compareTo(S2);

@@ -1,0 +1,5 @@
+++ Increment operator
+-- Decrement operator
+=  Assignment operator
++= Addition then assignment
++=

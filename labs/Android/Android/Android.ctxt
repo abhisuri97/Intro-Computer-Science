@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=memory
+comment0.target=Android(int)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Android\n\ \n\ You\ are\ just\ starting\ to\ write\ this\ code.\ \ You\ want\ your\ android\ to\ have\ a\ brain.\ \ It\ needs\n\ memory.\ \ The\ user\ can\ decide\ how\ much\ memory\ it\ gets.\n
+numComments=1

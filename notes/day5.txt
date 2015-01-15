@@ -1,0 +1,8 @@
+Data Conversions:
+	- How can you convert data?
+		Assignment Conversion
+		Arithmetic promotion
+		Casting
+	- Widening vs. Narrowing Conversions
+	- Operator Precedence (Appendix C)
+	

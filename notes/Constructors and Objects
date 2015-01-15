@@ -1,0 +1,14 @@
+Constructors and Objects
+
+An constructor initializes instance variables for a few object
+Constructors have a same name as the name of their class.
+Constructors do not return a value
+Constructors may not be called like a method
+We may define a constructor. Every class has a default constructor
+Constructors may be overloaded to create different but similar objects
+Aggregation/"has-a" allows an object to be made up of other objects
+Using inheritance/"is-a" allows an object to derive variables and methods from another class
+Two classes that are aware of each other (in the same scope) may use each other
+Local data does not exist when a method
+Instance data persists as long as the object exists
+Be careful! If a local variable shares the name of an instance variable, the local variable variable is accessed within the method with that local variable that name is used.

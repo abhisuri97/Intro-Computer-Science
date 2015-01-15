@@ -1,0 +1,17 @@
+A java interface is similar to a class but may only include FINAL FIELDS (CONSTANTS) and ABSTRACT METHODS
+Abstract methods
+	- Do not have implementations
+	- A header followed by a semicolon with no body
+	- An interface can NOT be instantiated
+Useful when a characteristic is used for many different objects
+Also useful when adding or changing objects frequently
+Comparable interface
+	- compareTo is its only method
+	- int compareTo(String str) for String objects
+	- int compareTo(int myInt) for Integer objects
+List Interface
+	- 4 interface methods
+		- size
+		- add
+		- iterator
+		- list iterator

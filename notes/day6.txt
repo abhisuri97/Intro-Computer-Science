@@ -1,0 +1,22 @@
+Data Conversion:
+	1. Assignment
+	2. Arithmetic Promotion
+	3. Cast
+
+	(int) x/y
+	1.25 (double)
+
+	int c = (int) x/y
+	Error
+
+	int c = (int) (x/y)
+	c
+	1 (int)
+
+
+Operator Preference:
+Level	Operation
+3		Cast
+4		division
+5		+,-,string concatentation
+WHICHEVER COMES FIRST LEFT TO RIGHT

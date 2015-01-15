@@ -1,0 +1,23 @@
+(f && !g)
+!! (f && !g)
+
+! (!f || g)
+(f && !g)
+
+f	g	!f	!g	!f||g	!(!f||g)	(f&&!g)
+0	0	1 	1 	1	 	0			0	
+0	1	1	0	1		0			0	
+1	0	0	1	0		1			1
+1	1	0	0	1		0			0
+
+boolean qualifiesForGrant = (grades > 90 || income < 10000)
+can be changed to
+boolean doesNOTqualifyForGrant = !(grades > 90 || income < 10000)
+							   = !(grades > 90) && !(income <10000)
+							   = (grades <= 90) && (income >= 10000)
+
+oilChangeNOTNeeded = (months<3) && (miles < 3000)
+= !((months<3) && (miles<3000))
+needOilChange = (months >= 3) || (miles >= 3000)
+
+!((!a && !b) || (a || !b))
