@@ -206,7 +206,7 @@ public class Picture extends SimplePicture {
             }
         }
     }
-    public void mirrorDiagonal () {
+    public void mirrorDiagonal () { //Challenge Problem
         Pixel[][] pixels = this.getPixels2D();
         Pixel botLeftPixel = null;
         Pixel topRightPixel = null;
