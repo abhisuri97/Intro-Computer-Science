@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.params=picture\ x\ y
-comment0.target=Pixel(classes.DigitalPicture,\ int,\ int)
+comment0.target=Pixel(DigitalPicture,\ int,\ int)
 comment0.text=\n\ A\ constructor\ that\ takes\ the\ x\ and\ y\ location\ for\ the\ pixel\ and\n\ the\ picture\ the\ pixel\ is\ coming\ from\n\n\ @param\ picture\ the\ picture\ that\ the\ pixel\ is\ in\n\ @param\ x\ \ \ \ \ \ \ the\ x\ location\ of\ the\ pixel\ in\ the\ picture\n\ @param\ y\ \ \ \ \ \ \ the\ y\ location\ of\ the\ pixel\ in\ the\ picture\n
 comment1.params=
 comment1.target=int\ getX()
