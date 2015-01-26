@@ -96,7 +96,13 @@ public class PictureTester {
         temple.mirrorGull();
         temple.explore();
     }
-
+    public static void testPartCopy() {
+        Picture toPic = new Picture("arch.jpg");
+        Picture fromPic = new Picture("flower1.jpg");
+        toPic.explore();
+        toPic.partCopy(fromPic,5,5, 50,50, 30,40);
+        toPic.explore();
+    }
     /**
      * Method to test the collage method
      */
