@@ -375,6 +375,7 @@ public class Picture extends SimplePicture {
      * @param edgeDist the distance for finding edges
      */
     public void edgeDetection(int edgeDist) {
+        Picture copy = new Picture(this);
         Pixel leftPixel = null;
         Pixel rightPixel = null;
         Pixel topPixel = null;
@@ -394,59 +395,42 @@ public class Picture extends SimplePicture {
                 else
                     leftPixel.setColor(Color.WHITE);
             }
-            
         }
-        for (int row = 0; row < pixels.length - 1; row++) {
-        for (int col = 0;
-                 col < pixels[0].length; col++) {
-                topPixel = pixels[row][col];
-                bottomPixel = pixels[row+1][col];
-                bottomColor = bottomPixel.getColor();
-                if (topPixel.colorDistance(bottomColor) >
-                        edgeDist)
-                    topPixel.setColor(Color.BLACK);
-                else
-                    topPixel.setColor(Color.WHITE);
+        Pixel[][] pixels2 = copy.getPixels2D();
+        for (int row = 0; row < pixels2.length - 1; row++) {
+            for (int col = 0;
+                     col < pixels2[0].length; col++) {
+                    topPixel = pixels2[row][col];
+                    bottomPixel = pixels2[row+1][col];
+                    bottomColor = bottomPixel.getColor();
+                    if (topPixel.colorDistance(bottomColor) >
+                            edgeDist)
+                        topPixel.setColor(Color.BLACK);
+                    else
+                        topPixel.setColor(Color.WHITE);
             }
         }
     }
-      public void edgeDetection2(int edgeDist) {
+    public void edgeDetection2(int edgeDist)
+      {
         Pixel leftPixel = null;
         Pixel rightPixel = null;
-        Pixel topPixel = null;
-        Pixel bottomPixel = null;
-        Pixel centerPixel = null;
-        Pixel[][] pixels = this.getPixels2D();
+        Pixel pixels[][] = this.getPixels2D();
         Color rightColor = null;
-        Color bottomColor = null;
-        Color leftColor = null;
-        Color topColor = null;
-        for (int row = 1; row < pixels.length - 1; row++) {
-        for (int col = 1;
-                 col < pixels[0].length-1; col++) {
-               
-                     topPixel = pixels[row-1][col];
-                     topColor = topPixel.getColor(); 
-                
-                bottomPixel = pixels[row+1][col];
-                rightPixel = pixels[row][col+1];
-                
-                    leftPixel = pixels[row][col-1];
-                    leftColor = leftPixel.getColor(); 
-                
-                centerPixel = pixels[row][col];
-                bottomColor = bottomPixel.getColor();
-                rightColor = rightPixel.getColor();
-
-                if ((centerPixel.colorDistance(bottomColor) >
-                        edgeDist) && (centerPixel.colorDistance(leftColor) >
-                        edgeDist) && (centerPixel.colorDistance(rightColor) >
-                        edgeDist) && (centerPixel.colorDistance(topColor) >
-                        edgeDist))
-                    centerPixel.setColor(Color.BLACK);
-                else
-                    centerPixel.setColor(Color.WHITE);
-            }
+        for (int row = 0; row < pixels.length-1; row++)
+        {
+              for (int col = 0; 
+                   col < pixels[0].length-1; col++)
+              {
+                    leftPixel = pixels[row][col+1];
+                    rightPixel = pixels[row+1][col];
+                    rightColor = rightPixel.getColor();
+                    if (leftPixel.colorDistance(rightColor) > 
+                        edgeDist)
+                      leftPixel.setColor(Color.BLACK);
+                    else
+                      leftPixel.setColor(Color.WHITE);
+              }
         }
     }
 
