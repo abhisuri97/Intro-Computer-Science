@@ -100,7 +100,7 @@ public class PictureTester {
         Picture toPic = new Picture("arch.jpg");
         Picture fromPic = new Picture("flower1.jpg");
         toPic.explore();
-        toPic.partCopy(fromPic,5,5, 50,50, 30,40);
+        toPic.copy(fromPic,5,5, 40,50, 30,40);
         toPic.explore();
     }
     /**

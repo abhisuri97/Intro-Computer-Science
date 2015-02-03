@@ -323,7 +323,7 @@ public class Picture extends SimplePicture {
             }
         }
     }
-    public void partCopy(Picture fromPic,
+    public void copy(Picture fromPic,
                      int fromStartRow, int fromStartCol, int fromEndRow, int fromEndCol, int toStartRow, int toStartCol) {
         Pixel fromPixel = null;
         Pixel toPixel = null;
@@ -400,9 +400,9 @@ public class Picture extends SimplePicture {
         for (int row = 0; row < pixels2.length - 1; row++) {
             for (int col = 0;
                      col < pixels2[0].length; col++) {
-                    topPixel = pixels2[row][col];
-                    bottomPixel = pixels2[row+1][col];
-                    bottomColor = bottomPixel.getColor();
+                    topPixel = pixels[row][col];
+                    bottomPixel = pixels[row+1][col];
+                    bottomColor = pixels2[row+1][col].getColor();
                     if (topPixel.colorDistance(bottomColor) >
                             edgeDist)
                         topPixel.setColor(Color.BLACK);
