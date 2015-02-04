@@ -34,6 +34,7 @@ public class Deck {
         for(int j = 0; j < ranks.length; j++) {
             for(String suitString : suits) {
                 cards.add(new Card(ranks[j], suitString, values[j]));
+                size++;
               }
           }
         
@@ -55,7 +56,6 @@ public class Deck {
      * @return the number of undealt cards in this deck.
      */
     public int size() {
-        size = cards.size();
         return size;
     }
 
@@ -64,7 +64,7 @@ public class Deck {
      * and reset the size to represent the entire deck.
      */
     public void shuffle() {
-        /* *** TO BE IMPLEMENTED IN ACTIVITY 4 *** */
+        
     }
 
     /**
@@ -73,7 +73,14 @@ public class Deck {
      *         previously dealt.
      */
     public Card deal() {
-        /* *** TO BE IMPLEMENTED IN ACTIVITY 2 *** */
+        if (size > 0) {
+            size--;
+            Card card1 = cards.get(size);
+            
+            return card1;
+        }
+        else return null;
+        
     }
 
     /**
