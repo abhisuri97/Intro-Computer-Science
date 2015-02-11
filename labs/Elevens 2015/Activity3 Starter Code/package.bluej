@@ -1,7 +1,7 @@
 #BlueJ package file
 objectbench.height=100
 objectbench.width=395
-package.editor.height=236
+package.editor.height=230
 package.editor.width=592
 package.editor.x=0
 package.editor.y=23
@@ -10,7 +10,7 @@ package.numTargets=1
 package.showExtends=true
 package.showUses=true
 project.charset=MacRoman
-target1.editor.height=790
+target1.editor.height=786
 target1.editor.width=720
 target1.editor.x=720
 target1.editor.y=23

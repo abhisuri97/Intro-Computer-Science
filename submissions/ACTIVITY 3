@@ -1,0 +1,30 @@
+1. 
+
+ public static String flip() {
+    	int rand = (int) Math.floor(Math.random()*3);
+    	if (rand==1 || rand==2) 
+    	return "heads";
+    	else 
+    	return "tails";
+    }
+
+2.
+public static boolean arePermutations(int[] values1, int[] values2)
+    {
+        int length = values1.length;
+        int counter = 0;
+        for (int i = 0; i < length; i++)
+        {
+            for(int j = 0; j < length; j++)
+            {
+                if(values1[i] == values2[j])
+                counter++;
+            }
+        }
+        if (counter == length)
+        return true;
+        else return false;
+    }
+
+3. 
+{0,1,1}
