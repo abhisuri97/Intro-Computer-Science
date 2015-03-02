@@ -1,0 +1,9 @@
+Abhinav Suri
+Mar 2 2015
+Activity 8
+
+1. Each game has a deck of cards and cards on the board and  can deal the cards, remove and replace selected cards, check for a win, check if cards satisfy the rules of the game, and see if there are more legal selections available. The differences arise based on the sum of numbers needed to remove a pair (13 for Thirteens, 10 for Tens). Additionally, Thirteens requires that Kings are selected and removed singly while Tens requires that quartets of kings,queens,jacks, and tens of all the same rank can be removed. 
+
+2. ElevensBoard declares the board size, ranks, suits, and point values of the cards via private instance variables inside the ElevensBoard class. It uses these variables as arguments in methods. 
+
+3. The isLegal and anotherPlayIsPossible are the two abstracted methods in Board. However they do not cover all the differences between the versions of the card games since each game needs its own version of the containsJQK method and containsPairSum method.
