@@ -1,0 +1,26 @@
+Activity 6:
+1. Remove 6-5
+2. The final cards have to be JQK since, in order to remove the cards, they have to be all face cards in order to pair up.
+3. No strategy, game of chance depending on cards drawn. The result of the game will be the same for a given set, since there is a unique amount of pairs that can be played
+
+Activity 7:
+1. Deck of cards, a board to play on that has 9 cards. Private vars: integers for board size and amount of cards. String array for card details (rank, suits, point vals). Card array for cards on the board (in play) and Deck array (from the card array).
+2. ShuffleCards --> Deal 9 cards --> Remove pairs adding to 11 OR JKQ combination
+	Case 1: Cards are eliminated --> Replace cards with new cards from deck
+	Case 2: Nothing is removed --> GAME FINISHED
+	Case 3: All cards are gone and all deck has been dealt --> WIN
+3. ElevensBoard doesn't check for illegal/legal moves and any other possible plays. Does not have all behaviors implemented
+4.
+	a. dealMyCards is called inside the newgame method inside the constructor to make a new game
+	b. isLegal and anotherPlayIsPossible methods (respectively)
+	c.
+	   0 | 1 | 3 | 6 | 7 | 
+	d. 
+	public static void printCrads(ElevensBoard board) { 
+		List<Integer> cIndexes = board.cardIndexes();
+		for (int i = 0; i < cIndexes.size(); i++) {
+			int k = cIndexes.get(i);
+			System.out.println(cardAt(k));
+		}
+	}
+	e. anotherPlayIsPossible should call cardIndexes first to check if the board still has cards. If cardIndexes yields an empty arraylist, then the method should return false --> game over. Else, checks if another play can happen.
