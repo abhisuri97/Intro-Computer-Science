@@ -1,0 +1,30 @@
+Abhinav Suri
+Chapter 7 Questions, self review, mult choice, True/False, AP Style
+Mar 2 2015
+AP CS Period 5
+
+
+Self Review Ch 7:
+1. Child class comes from parent class via inheritence since the child inherits the methods and vars of the parent class based on the modifier declarations.
+2. Since the new class can be derived from the existing class, there is no need to copy and change the code since the characteristics of the parent are inherited
+3. inheritence should represent an "is-a" relationship so the child is-a version of the parent
+4. Child classes can override the definition of a method by the parent class by making its own definition.
+
+Mult choice:
+7.2 		B
+7.4 		A
+7.9		B
+7.10		E
+
+T/F
+7.1 		F
+7.2 		T
+7.3		F
+7.4		F
+7.5		F
+7.6		T
+
+AP Style Mult Choice
+7.1 		B
+7.2		D
+7.3		C
