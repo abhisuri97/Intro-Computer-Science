@@ -1,0 +1,10 @@
+Abhinav Suri
+Activity 9 Questions
+AP Computer Science period 5
+March 23 2015
+
+1. The method "size" only return the size of the board and doesn't differ based on what the size of the board is.
+
+2. Selecting the cards is the same regardless of the amount of cards, the size of the deck, or the size of the board as long as the selection is legal.
+
+3. In an interface the parent class can only list the method but not the implementation, this job is left to the child classes. But in an abstract class, the parent class can define the method, partial implementation, and instance variables for the child class to then add upon. The methods isLegal and anotherPlayIsPossible would not be able to be called polymorphically if the scheme was based upon a interface scheme and WOULD NOT work as well as the abstract Board design (since the parent class wouldn't be able to hold information for the children class to use.)

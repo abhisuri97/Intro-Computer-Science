@@ -1,0 +1,23 @@
+Abhinav Suri
+AP Comp Sci Period 5
+CH 7 Problems (2)
+Mar 16 2015
+
+Self Review:
+7.5: super reference can call the parent constructor b/c it cannot be invoked by using its name. It can invoke the parent's version of an overridden method.
+7.6: All classes in java are derived from the Object class therefore all public methods are available to every object
+7.7: Abstract class represents a general idea. Common characteristics and method signatures can be defined in it. The child class inherits these traits.
+7.8: If a class member is private it is not usable (the child class cannot reference it by name). But it can be referenced indirectly in the child class.
+
+Mult Choice:
+7.1: D
+7.3: C
+7.7: C
+7.8: C
+
+True/False
+7.7 True
+7.8 True
+
+AP Style
+7.4 C 

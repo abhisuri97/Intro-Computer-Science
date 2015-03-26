@@ -1,0 +1,25 @@
+Abhinav Suri
+AP Computer Science Period 5
+March 23 2015
+Chapter 7 Questions
+
+Self Review
+7.9 Polymorphism is the ability of a reference variable to refer to different types of objects at different times.  A method invoked through such a reference is bound to different method definitions at different times.
+
+7.10 In Java a reference variable declared using a parent class can be used to refer to an object of the child class. If both classes contain a method with the same signature, the parent reference can be polymorphic
+
+7.11 When a child class overrides the definition of a parent's method two version of the method exist. If a polymorphic reference is used to invoke the method, the version of the method that is invoked is determined by the type of object being referred to
+
+7.12 An interface name can be used as the type of a reference. This reference variable can refer to any object of any class that uses that interface, because all classes use the same interface they have methods with common signatures, which can be dynamically bound.
+
+Mult Choice
+7.5 E
+7.6 B
+
+T/F
+7.9 T
+7.10 F
+
+AP Style Mult Choice
+7.5 C
+7.6 A
