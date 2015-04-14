@@ -1,0 +1,15 @@
+Abhinav Suri
+AP Comp Sci
+Chapter 8 Question Continued
+6 April 2015
+
+Self Review-
+8.7: For a tower of hanoi puzzle w/ N disks, N-1 disks must be moved to the extra peg and the largest disk must be moved to the final peg. The disks on the extra peg must be moved to the final peg and the process repeats (it is thus recursive)
+
+AP Style Mult Choice-
+8.1: C
+8.2: A
+8.3: A
+8.4: D
+8.5: C
+8.6: D
