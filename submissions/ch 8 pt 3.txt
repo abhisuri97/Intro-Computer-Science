@@ -1,0 +1,11 @@
+Abhinav Suri
+AP Computer Science
+13 Apr 2015
+Self Review and T/F
+
+Self Review:
+8.8- Merge sort divides the list into two halves, sorts both through recursion, and merges the final list together
+8.9- Quick sort portioning works by selecting a pivot value and moving everything >= to the back of the array and everything <= to the front of the array
+
+T/F
+8.9 T

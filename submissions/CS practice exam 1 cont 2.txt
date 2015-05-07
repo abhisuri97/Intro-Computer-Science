@@ -1,0 +1,34 @@
+Abhinav Suri
+
+31. C
+32. E
+33. D
+
+(a) 
+public void reset() {
+	if(arm.isFaceingRight()) 
+		arm.chaangeDirection();
+		arm.moveForward(arm.getCurrentIndex());
+		arm.changeDirection();
+}
+
+(b)
+public in mostAcidic() {
+	reset();
+	int minPH= Integer.MAX_VALUE,
+	minIndex=0;
+	while(index<solutions.size()) {
+		Solution s = solutions.get(index);
+		if(s.getPH() < minPH) {
+			minPH= s.getPH();
+			minIndex=index;
+		}
+		index++
+	}
+	if(minPH>=7) 
+	return -1;
+	else {
+	arm.moveForward(minIndex);
+	return minIndex;
+	}
+}
